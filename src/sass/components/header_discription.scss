@@ -1,0 +1,12 @@
+.header_discription-item {
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+}
+
+.header_discription-item::before {
+    content: url(../images/arrow.png);
+    width: 7px;
+    height: 12px;
+    margin-right: 15px;
+}

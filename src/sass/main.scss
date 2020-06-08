@@ -3,4 +3,19 @@
  */
 
 @import 'normalize.scss';
-@import 'base.scss';
+
+
+
+@import 'helpers/fonts.scss';
+@import 'helpers/font-awesome.scss';
+
+
+
+@import 'components/media.scss';
+@import 'components/wrapper.scss';
+@import 'components/container.scss';
+@import 'components/header_logo-link.scss';
+@import 'components/header_title.scss';
+@import 'components/header_discription.scss';
+@import 'components/header_btn.scss';
+@import 'components/header_images.scss';
