@@ -1,0 +1,13 @@
+.wrapper {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    .wrapper {
+        background-image: url(../images/banner@2x.png);
+        background-size: cover;
+        background-position: center;
+    }
+}

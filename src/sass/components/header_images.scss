@@ -1,0 +1,49 @@
+.header_images-small {
+    background-image: url(../../images/phone-small-tab.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 346px;
+    position: absolute;
+    top: 285px;
+    right: 130px;
+    z-index: 50;
+}
+
+// @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+//     .header_images-small {
+//         background-image: url(../../images/phone-small-tab@2x.png);
+//         background-position: center;
+//         background-size: cover;
+//         height: 600px;
+//         width: 346px;
+//         position: absolute;
+//         top: 285px;
+//         right: 130px;
+//         z-index: 50;
+//     }
+// }
+
+.header_images-big {
+    background-image: url(../../images/phone-big-tab.png);
+    background-position: center;
+    background-size: cover;
+    height: 662px;
+    width: 382px;
+    position: absolute;
+    top: 215px;
+    right: 30px;
+}
+
+// @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+//     .header_images-big {
+//         background-image: url(../../images/phone-big-tab@2x.png);
+//         background-position: center;
+//         background-size: cover;
+//         height: 662px;
+//         width: 382px;
+//         position: absolute;
+//         top: 215px;
+//         right: 30px;
+//     }
+// }
