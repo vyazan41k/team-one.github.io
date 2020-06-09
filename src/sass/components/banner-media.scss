@@ -5,16 +5,16 @@
         top: 0;
         left: 0;
         z-index: 50;
-    }
 
-    #header::before {
-        content: '';
-        position: absolute;
-        top: 20px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+        }
     }
 
     .header_body {
@@ -280,6 +280,22 @@
         top: 407px;
         right: 145px;
     }
+
+     // -------------------------Section-team------------------------
+
+     .team__cards    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .team__about-text   {
+        width: 482px;
+    }
+
+    // -------------------------------------------------------------
 }
 
 @media (min-width: 1200px) {
@@ -380,6 +396,20 @@
     .header_btn {
         margin: 0 0 150px 20px;
     }
+
+    // ------------------------Section-team-----------------------------
+
+    .team__cards    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .team__about-text    {
+        width: 1002px;
+    }
+
+    // --------------------------------------------------------------------
 
 
 
