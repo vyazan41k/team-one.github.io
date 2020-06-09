@@ -1,0 +1,143 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#header {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    #header {
+        background-image: url(../images/banner@2x.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.container {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header_logo-link {
+    font-family: "Raleway";
+    color: rgb(26, 183, 152);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header_title-up {
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.header_title-sub {
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;    
+}
+
+.header_discription-item {
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+}
+
+.header_discription-item::before {
+    content: url(../images/arrow.png);
+    width: 7px;
+    height: 12px;
+    margin-right: 15px;
+}
+
+.header_btn {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(26, 183, 152);
+    border-radius: 5px;
+    border: none;
+    width: 211px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header_btn-icon {
+    background-image: url(../images/download.png);
+    width: 36px;
+    height: 24px;
+}
+
+.header_btn-text {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.header_images-small {
+    background-image: url(../../images/phone-small-tab.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 346px;
+    position: absolute;
+    top: 285px;
+    right: 130px;
+    z-index: 50;
+}
+
+// @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+//     .header_images-small {
+//         background-image: url(../../images/phone-small-tab@2x.png);
+//         background-position: center;
+//         background-size: cover;
+//         height: 600px;
+//         width: 346px;
+//         position: absolute;
+//         top: 285px;
+//         right: 130px;
+//         z-index: 50;
+//     }
+// }
+
+.header_images-big {
+    background-image: url(../../images/phone-big-tab.png);
+    background-position: center;
+    background-size: cover;
+    height: 662px;
+    width: 382px;
+    position: absolute;
+    top: 215px;
+    right: 30px;
+}
+
+// @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+//     .header_images-big {
+//         background-image: url(../../images/phone-big-tab@2x.png);
+//         background-position: center;
+//         background-size: cover;
+//         height: 662px;
+//         width: 382px;
+//         position: absolute;
+//         top: 215px;
+//         right: 30px;
+//     }
+// }
