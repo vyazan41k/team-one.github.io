@@ -1,10 +1,24 @@
-/*
- * Все паршалы импортировать в этот файл
- */
-
+@import "helpers/variables.scss";
+@import "helpers/mixins.scss";
+@import "helpers/placeholders.scss";
+@import "helpers/fonts.scss";
 @import 'normalize.scss';
+@import 'base.scss';
 
-@import 'helpers/fonts.scss';
-
+// Section head
 @import 'components/section-banner.scss';
+
+// Section video 
+@import "components/video.scss";
+
+// Section team
+@import "components/team__section.scss";
+
+
+
+// Section customer 
+@import "components/customer.scss";
+
+
+// Media
 @import 'components/banner-media.scss';

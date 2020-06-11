@@ -1,0 +1,123 @@
+.customer__title {
+  @extend %text;
+}
+.customer__title-head {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1ab798;
+  padding-top: 60px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    top: 72px;
+    left: 20px;
+  }
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    top: 72px;
+    right: 20px;
+  }
+}
+.customer__subtitle-head {
+  display: block;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1ab798;
+}
+
+
+.customer__card {
+  @extend %text;
+}
+.customer__foto {
+  display: inline-block;
+  padding-top: 50px;
+  width: 100px;
+}
+.customer__img {
+  border: 1px solid #c4c7c7;
+  border-radius: 50%;
+}
+.customer__list-name {
+  @extend %text;
+  padding-top: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+.customer__name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #062033;
+}
+.customer__info {
+  @extend %text;
+  position: relative;
+  padding: 0 30px;
+
+  &::before {
+    position: absolute;
+    font-size: 150px;
+    line-height: 36px;
+    content: '\201c';
+    color: #efefef;
+    left: -10px;
+    top: 50px;
+    z-index: -1;
+  }
+}
+.customer__info-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #282528;
+  padding-top: 30px;
+}
+.customer__text {
+  font-size: 13px;
+  line-height: 18px;
+  color: #646464;
+}
+.customer__slider-dots {
+  padding: 25px 0 60px 0;
+}
+.ellipse {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #d4d3d4;
+  border-radius: 50%;
+  margin-right: 0px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+  &:hover {
+    background-color: #1ab798;
+  }
+}
+
