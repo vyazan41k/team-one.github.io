@@ -1,0 +1,114 @@
+.container {
+    max-width: 1145px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.features__text {
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 100px;
+    font-size: 18px;
+}
+.features__key {
+    margin: 0 auto;
+    width: 350px;
+    position: relative;
+    padding: 0 65px;
+    margin-bottom: 100px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1ab798;
+
+}
+.features__key::before {
+    content:"";
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-color:#babdc1;
+}
+.features__key::after {
+    content:"";
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: #babdc1;
+}
+.features__col__lists {
+    width: 33.33%;
+    text-align: center;
+}
+.features__content {
+    display: flex;
+    margin: 0 -15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.features__list {
+  position: relative;
+  padding-left: 60px;
+  padding-bottom: 90px;
+}
+.features__list::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features__list-name {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.muy {
+    text-align: left;
+}
+.kuy {
+    width: 460px;
+}
+.board::before {
+    background-image: url(../images/icons/icon-board.png);
+}
+.device::before {
+    background-image: url(../images/icons/icon-device.png);
+}
+.thumb::before {
+    background-image: url(../images/icons/icon-thumb.png);
+}
+.star::before {
+    background-image: url(../images/icons/icon-star.png);
+}
+.notification::before {
+    background-image: url(../images/icons/icon-notification.png);
+}
+.share::before {
+    background-image: url(../images/icons/icon-share.png);
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .board::before {
+        background-image: url(../images/icons/icon-board@2x.png);
+    }
+    .device::before {
+        background-image: url(../images/icons/icon-device@2x.png);
+    }
+    .thumb::before {
+        background-image: url(../images/icons/icon-thumb@2x.png);
+    }
+    .star::before {
+        background-image: url(../images/icons/icon-star@2x.png);
+    }
+    .notification::before {
+        background-image: url(../images/icons/icon-notification@2x.png);
+    }
+    .share::before {
+        background-image: url(../images/icons/icon-share@2x.png);
+    }
+  }
