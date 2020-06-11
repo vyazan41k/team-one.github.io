@@ -1,23 +1,34 @@
-@import "helpers/variables.scss";
-@import "helpers/mixins.scss";
-@import "helpers/placeholders.scss";
-@import "helpers/fonts.scss";
 @import 'normalize.scss';
 @import 'base.scss';
+
+
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/placecholder.scss';
+@import 'helpers/fonts.scss';
+
 
 // Section head
 @import 'components/section-banner.scss';
 
 // Section video 
-@import "components/video.scss";
+@import 'components/video.scss';
 
 // Section team
-@import "components/team__section.scss";
-
-
+@import 'components/team__section.scss';
 
 // Section customer 
 @import "components/customer.scss";
+
+
+
+
+
+
+
+
+
+
 
 
 // Media
