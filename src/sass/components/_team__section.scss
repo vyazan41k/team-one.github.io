@@ -1,43 +1,19 @@
-.container  {
-    width: 320px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .team__title    {
     padding-top: 50px;;
 }
 
 .team__title-text    {
-    font-family: "Raleway-Bold";
-    font-size: 18px;
-    text-transform: uppercase;
-    position: relative;
-    color: #1ab798;
-    text-align: center;
-    padding-bottom: 36px;
-    width: 288px;
-    margin: 0 auto;
+    @extend %title;
+    width: 296px;
 
     &::before    {
-        content: "";
-        display: block;
-        width: 60px;
-        height: 1px;
-        background-color: #babdc1;
-        position: absolute;
-        top: 10px;
-        left: 18px;
+        @extend %title-psevdo;
+        left: 0;
     }
+    
     &::after    {
-        content: "";
-        display: block;
-        width: 60px;
-        height: 1px;
-        background-color: #babdc1;
-        position: absolute;
-        top: 10px;
-        right: 18px;
+        @extend %title-psevdo;
+        right: 0;
     }
 }
 
@@ -47,9 +23,9 @@
 
 .team__about-text    {
     text-align: center;
-    font-family: "OpenSans-Bold";
+    @extend %font-family-1;
     font-size: 16px;
-    color: #384d5c;
+    color: $color-13;
     width: 266px;
     margin: 0 auto;
 }
@@ -82,11 +58,11 @@
 }
 
 .team__overlay:hover .team__name    {
-    color: #1ab798;
+    color: $color-2;
 }
 
 .team__foto {
-    background-color: #1ab798;
+    background-color: $color-2;
     height: 300px;
 }
 
@@ -96,9 +72,9 @@
     width: 222px;
     top: 22px;
     right: 22px;
-    font-family: "OpenSans-Bold";
+    @extend %font-family-1;
     font-size: 16px;
-    color: #ffffff;
+    color: $color-1;
     visibility: hidden;
 }
 
@@ -134,17 +110,17 @@
 }
 
 .team__name {
-    font-family: "OpenSans-SemiBold";
+    @extend %font-family-3;
     font-size: 18px;
-    color: #062033;
+    color: $color-3;
     padding-top: 20px;
     text-align: center;
 }
 
 .team__prof {
-    font-family: "OpenSans-Regular";
+    @extend %font-family-2;
     font-size: 13px;
-    color: #73828d;
+    color: $color-4;
     padding-top: 14px;
     text-align: center;
     padding-bottom: 50px;
