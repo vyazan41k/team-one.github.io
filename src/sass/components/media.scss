@@ -124,7 +124,7 @@
     }
 
     .header_images-small {
-        background-image: url(../../images/phone-small.png);
+        background-image: url(../images/phone-small.png);
         background-size: cover;
         width: 232px;
         height: 403px;
@@ -136,7 +136,7 @@
 
     @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
         .header_images-small {
-            background-image: url(../../images/phone-small@2x.png);
+            background-image: url(../images/phone-small@2x.png);
             background-size: cover;
             width: 232px;
             height: 403px;
@@ -144,7 +144,7 @@
     }
 
     .header_images-big {
-        background-image: url(../../images/phone.png);
+        background-image: url(../images/phone.png);
         background-size: cover;
         width: 256px;
         height: 444px;
@@ -155,7 +155,7 @@
 
     @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
         .header_images-big {
-            background-image: url(../../images/phone@2x.png);
+            background-image: url(../images/phone@2x.png);
             background-size: cover;
             width: 256px;
             height: 444px;
@@ -351,7 +351,7 @@
 
 
     .header_images-small {
-        background-image: url(../../images/phone-small.png);
+        background-image: url(../images/phone-small.png);
         background-size: cover;
         width: 346px;
         height: 600px;
@@ -363,7 +363,7 @@
 
     @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
         .header_images-small {
-            background-image: url(../../images/phone-small@2x.png);
+            background-image: url(../images/phone-small@2x.png);
             background-size: cover;
             width: 346px;
             height: 600px;
@@ -371,7 +371,7 @@
     }
 
     .header_images-big {
-        background-image: url(../../images/phone.png);
+        background-image: url(../images/phone.png);
         background-size: cover;
         width: 382px;
         height: 663px;
@@ -382,7 +382,7 @@
 
     @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
         .header_images-big {
-            background-image: url(../../images/phone@2x.png);
+            background-image: url(../images/phone@2x.png);
             background-size: cover;
             width: 382px;
             height: 663px;
