@@ -1,0 +1,28 @@
+@import 'normalize.scss';
+@import 'base.scss';
+
+
+// @import 'helpers/mixins.scss';
+@import 'helpers/variables.scss';
+@import 'helpers/placeholders.scss';
+
+
+
+
+// Section head
+@import 'components/banner.scss';
+
+// Section key features
+@import 'components/key_features.scss';
+
+// Section video 
+@import 'components/video.scss';
+
+// Section team
+@import 'components/team__section.scss';
+
+// Section customer 
+@import "components/customer.scss";
+
+// Media
+@import 'components/media.scss';

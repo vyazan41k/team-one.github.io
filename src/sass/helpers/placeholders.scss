@@ -1,0 +1,119 @@
+%font-family-1 {
+    font-family: 'Open Sans Bold';
+}
+
+%font-family-2 {
+    font-family: 'Open Sans Regular';
+}
+
+%font-family-3 {
+    font-family: 'Open Sans SemiBold';
+}
+
+%font-family-4 {
+    font-family: 'Raleway Bold';
+}
+
+%font-family-5 {
+    font-family: 'Raleway Regular';
+}
+
+%font-family-1 {
+    font-family: 'Raleway SemiBold';
+}
+
+
+
+
+
+
+@font-face {
+        font-family: 'Open Sans Bold';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'),
+             url('../../fonts/open-sans-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/open-sans-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+        font-family: 'Open Sans Regular';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'),
+             url('../../fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/open-sans-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+        font-family: 'Open Sans SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+             url('../../fonts/open-sans-v17-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/open-sans-v17-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+        font-family: 'Raleway Bold';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Raleway Bold'), local('Raleway-Bold'),
+             url('../../fonts/raleway-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/raleway-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */   
+}
+
+
+
+@font-face {
+        font-family: 'Raleway Regular';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Raleway'), local('Raleway-Regular'),
+             url('../../fonts/raleway-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/raleway-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+        font-family: 'Raleway SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+             url('../../fonts/raleway-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url('../../fonts/raleway-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+
+
+
+%title {
+    @extend %font-family-4;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: relative;
+    color: $color-2;
+    text-align: center;
+    padding-bottom: 36px;
+    margin: 0 auto;
+}
+
+%title-psevdo {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: $color-5;
+    position: absolute;
+    top: 15px;
+}
+
+%text {
+    text-align: center;
+}
+
+%text-left {
+    text-align: left;
+}

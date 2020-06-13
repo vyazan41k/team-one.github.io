@@ -1,0 +1,87 @@
+.customer__title {
+  @extend %text;
+}
+.customer__title-head {
+  @extend %title;
+  width: 296px;
+
+  &::before    {
+      @extend %title-psevdo;
+      left: 0;
+  }
+  
+  &::after    {
+      @extend %title-psevdo;
+      right: 0;
+  }
+}
+
+.customer__card {
+  @extend %text;
+}
+.customer__foto {
+  display: inline-block;
+  padding-top: 50px;
+  width: 100px;
+}
+.customer__img {
+  border: 1px solid $color-5;
+  border-radius: 50%;
+}
+.customer__list-name {
+  @extend %text;
+  padding-top: 30px;
+  @extend %font-family-2;
+}
+.customer__name {
+  font-size: 18px;
+  line-height: 24px;
+  color: $color-3;
+}
+.customer__info {
+  @extend %text;
+  position: relative;
+  padding: 0 30px;
+
+  &::before {
+    position: absolute;
+    font-size: 150px;
+    line-height: 36px;
+    content: '\201c';
+    color: $color-14;
+    left: -10px;
+    top: 50px;
+    z-index: -1;
+  }
+}
+.customer__info-text {
+  @extend %font-family-2;
+  font-size: 16px;
+  line-height: 26px;
+  color: $color-3;
+  padding-top: 30px;
+}
+.customer__text {
+  font-size: 13px;
+  line-height: 18px;
+  color: $color-4;
+}
+.customer__slider-dots {
+  padding: 25px 0 60px 0;
+}
+.ellipse {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: $color-5;
+  border-radius: 50%;
+  margin-right: 0px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+  &:hover {
+    background-color: $color-2;
+  }
+}

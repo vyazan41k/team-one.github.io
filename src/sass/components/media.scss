@@ -1,0 +1,486 @@
+@media (max-width: 767px) {
+
+    //-------------------section key features----------------
+
+    .features__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        font-size: 13px;
+    }
+    .features__col__lists {
+        width: 100%;
+        padding: 0 30px;
+        text-align: left;
+    }
+    .features__text {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .features__key {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .features__col__lists .kuy {
+        display: none;
+    }
+
+    .kuy {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 768px;
+    }
+
+    //-------------------section banner----------------
+
+    .container-head {
+        padding-top: 30px;
+        padding-bottom: 150px;
+        margin-bottom: 120px;
+    }
+
+    .navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 160px;
+    }
+
+    .header-line {
+        top: 30px;
+    }
+
+    .header_logo-link {
+        font-size: 30px;
+    }
+
+    .header_burger {
+        display: none;
+    }
+
+    .header_menu {
+        position: relative;
+        display: block; 
+        width: 450px;
+    }
+
+    .header_menu-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .header_title {
+        margin-bottom: 50px;
+    }
+
+    .header_title-up {
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    .header_title-sub {
+        font-size: 22px;
+        width: auto;
+    }
+
+    .header_discription {
+        margin-bottom: 80px;
+    }
+
+    .header_discription-list {
+        font-size: 16px;
+    }
+
+    .header_images {
+        display: block;
+    }
+
+    .header_images-small {
+        background-image: url(../../images/phone-small.png);
+        background-size: cover;
+        width: 232px;
+        height: 403px;
+        position: absolute;
+        left: 440px;
+        top: 170px;
+        z-index: 2;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+        .header_images-small {
+            background-image: url(../../images/phone-small@2x.png);
+            background-size: cover;
+            width: 232px;
+            height: 403px;
+        }
+    }
+
+    .header_images-big {
+        background-image: url(../../images/phone.png);
+        background-size: cover;
+        width: 256px;
+        height: 444px;
+        position: absolute;
+        left: 485px;
+        top: 130px;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+        .header_images-big {
+            background-image: url(../../images/phone@2x.png);
+            background-size: cover;
+            width: 256px;
+            height: 444px;
+        }
+    }
+
+    //--------------------------Section key features----------------
+  
+    .kuy {
+        display: none;
+    }
+    .features__col__lists {
+        width: 50%;
+        padding: 0 30px;
+        text-align: left;
+    }
+    .features__text {
+        padding: 100px 40px 40px 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .features__key {
+        margin-bottom: 60px;
+        width: 360px;
+    }
+
+    .features__key::before,
+    .features__key::after {
+        top: 15px;
+    }
+
+    // -------------------------Section-video------------------------
+    .video__box-info {
+        width: 570px;
+        margin: 0 auto;
+      }
+      .video__title-head {
+        font-size: 28px;
+        line-height: 18px;
+      }
+      .video__box {
+        text-align: center;
+        padding: 60px 0 110px 0;
+      }
+      .video__play {
+        width: 500px;
+        height: 300px;
+      }
+      .play {
+        display: none;
+        -webkit-transform: translate(332px, 140px);
+            -ms-transform: translate(332px, 140px);
+                transform: translate(332px, 140px);
+      }
+    
+     // -------------------------Section-team------------------------
+
+     .team__cards    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .team__about-text   {
+        width: 482px;
+    }
+
+    // ------Customer-------------------------------------------------------
+
+
+    .customer__title {
+        padding: 0 60px;
+      }
+      .customer__title-head {
+        font-size: 28px;
+        line-height: 36px;
+    
+        &::before {
+          top: 74px;
+          left: 35px;
+        }
+        &::after {
+          top: 76px;
+          right: 35px;
+        }
+      }
+      .customer__subtitle-head {
+        display: inline-block;
+        font-size: 28px;
+        line-height: 36px;
+      }
+      .customer__info {
+        padding: 0 40px;
+      }
+    
+      .customer__info-text {
+        font-size: 18px;
+        line-height: 36px;
+      }
+      .customer__slider-dots {
+        padding: 60px 0 110px 0;
+      }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+
+    //-------------------section banner----------------
+ 
+    .container-head {
+        padding-top: 30px;
+        padding-bottom: 150px;
+        margin-bottom: 120px;
+    }
+
+    .navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 170px;
+    }
+
+    .header-line {
+        top: 30px;
+    }
+
+    .header_logo-link {
+        font-size: 30px;
+    }
+
+    .header_burger {
+        display: none;
+    }
+
+    .header_menu {
+        position: relative;
+        display: block; 
+        width: 450px;
+    }
+
+    .header_menu-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .header_title {
+        margin-bottom: 50px;
+    }
+
+    .header_title-up {
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    .header_title-sub {
+        font-size: 22px;
+        width: auto;
+    }
+
+    .header_discription {
+        margin-bottom: 80px;
+    }
+
+    .header_discription-list {
+        font-size: 16px;
+    }
+
+    .header_images {
+        display: block;
+    }
+
+
+    .header_images-small {
+        background-image: url(../../images/phone-small.png);
+        background-size: cover;
+        width: 346px;
+        height: 600px;
+        position: absolute;
+        left: 650px;
+        top: 0px;
+        z-index: 2;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+        .header_images-small {
+            background-image: url(../../images/phone-small@2x.png);
+            background-size: cover;
+            width: 346px;
+            height: 600px;
+        }
+    }
+
+    .header_images-big {
+        background-image: url(../../images/phone.png);
+        background-size: cover;
+        width: 382px;
+        height: 663px;
+        position: absolute;
+        left: 710px;
+        top: -60px;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+        .header_images-big {
+            background-image: url(../../images/phone@2x.png);
+            background-size: cover;
+            width: 382px;
+            height: 663px;
+        }
+    }
+   
+
+
+    // --------- Section features --------------------------------------
+
+
+    .features__key {
+        width: 360px;
+    }
+
+    .features__key::before,
+    .features__key::after {
+        top: 15px;
+    }
+
+
+    // ------------------------Section-video-----------------------------
+    .video-back {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video__box-info {
+        padding: 0;
+        display: inline-block;
+        width: 540px;
+    }
+    .video__box {
+        display: inline-block;
+        width: 500px;
+
+    }
+
+      
+    .video__title {
+        font-size: 28px;
+    }
+
+      
+    .video__title,
+    .video__info {
+        text-align: left;
+    }
+      
+    .video__icons {
+        text-align: left;
+        padding-top: 25px;
+    }
+
+    .video__play {
+        width: 500px;
+        height: 300px;
+    }
+
+    .play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .video-icon {
+          &--apple {
+            background-image: url(../images/icon/apple@2x.png);
+          }
+          &--android {
+            background-image: url(../images/icon/android@2x.png);
+          }
+        }
+    }
+    // ------------------------Section-team-----------------------------
+
+    .team__cards    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .team__about-text    {
+        width: 1002px;
+    }
+
+    // -----------------------Customer---------------------------------------------
+
+    .customer__title {
+        padding: 0 270px;
+    }
+      
+    .customer__info::before {
+        left: -20px;
+        
+    }
+
+}
