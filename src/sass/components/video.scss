@@ -1,8 +1,11 @@
 
 .video__wrap {
-  background-color: #31d4e7;
+  background-color: $color-6;
   padding: 0 20px;
-
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
 .video__title {
@@ -10,27 +13,23 @@
 }
 
 .video__title-head {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
+  @extend %font-family-4;
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #222222;
-  padding-top: 60px;
+  color: $color-3;
+  // padding-top: 110px;
 }
 .video__info {
   @extend %text;
 }
 .video__info-text {
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #ffffff;
-padding-top: 30px;
+  @extend %font-family-2;
+  font-size: 16px;
+  line-height: 26px;
+  color: $color-1;
+  padding-top: 30px;
 }
 .video__icons {
   @extend %text;
@@ -41,8 +40,8 @@ padding-top: 30px;
    width: 70px;
    height: 70px;
    border-radius: 50%;
-   border: 15px solid #0098cd;
-   background-color: #0098cd;
+   border: 15px solid $color-7;
+   background-color: $color-7;
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;

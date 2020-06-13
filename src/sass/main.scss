@@ -2,14 +2,15 @@
 @import 'base.scss';
 
 
+// @import 'helpers/mixins.scss';
 @import 'helpers/variables.scss';
-@import 'helpers/mixins.scss';
-@import 'helpers/placecholder.scss';
-@import 'helpers/fonts.scss';
+@import 'helpers/placeholders.scss';
+
+
 
 
 // Section head
-@import 'components/section-banner.scss';
+@import 'components/banner.scss';
 
 // Section key features
 @import 'components/key_features.scss';
@@ -23,16 +24,5 @@
 // Section customer 
 @import "components/customer.scss";
 
-
-
-
-
-
-
-
-
-
-
-
 // Media
-@import 'components/banner-media.scss';
+@import 'components/media.scss';
