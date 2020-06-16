@@ -153,9 +153,9 @@
     margin-bottom: 40px;
 }
 
-.facebook,
-.twitter,
-.linkedin {
+.facebook-foot,
+.twitter-foot,
+.linkedin-foot {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -170,30 +170,30 @@
             align-items: center;
 }
 
-.facebook-icon {
+.facebook-foot-icon {
     width: 10px;
     height: 20px;
 }
 
-.twitter-icon {
+.twitter-foot-icon {
     width: 20px;
     height: 16px;
 }
 
-.linkedin-icon {
+.linkedin-foot-icon {
     width: 20px;
     height: 20px;
 }
 
-.facebook {
+.facebook-foot {
     background-color: $color-8;
 }
 
-.twitter {
+.twitter-foot {
     background-color: $color-9;
 }
 
-.linkedin {
+.linkedin-foot {
     background-color: $color-10;
 }
 
