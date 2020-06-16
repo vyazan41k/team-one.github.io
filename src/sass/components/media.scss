@@ -260,6 +260,83 @@
       .customer__slider-dots {
         padding: 60px 0 110px 0;
       }
+
+      //-------------------section footer----------------
+      .footer {
+        padding-bottom: 20px;
+        }
+
+    .footer-heading {
+        width: 335px;
+        padding-bottom: 75px;
+    }
+
+    .footer-heading_text {
+        font-size: 28px;
+    }
+
+    .form {
+        width: 708px;
+        height: auto;
+        padding: 0 70px 0 70px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        margin-bottom: 30px;    
+    }
+
+    .form-row-up {
+        width: 570px;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .form-name,
+    .form-control {
+        width: 273px;
+        margin: 0;
+    }
+
+    .form-message {
+        width: 570px;
+    }
+
+   .info {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .contact-footet {
+        margin-bottom: 70px;
+    }
+
+    .footer-line {
+        left: 0;
+    }
+
+    .copyright {
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 30px 0 0 10px;
+    }
 }
 
 
@@ -484,4 +561,120 @@
         
     }
 
+    //-------------------section footer----------------
+
+    .footer {
+        padding-top: 70px;
+    }
+
+    .footer-heading {
+        width: 340px;
+        margin-bottom: 125px;
+    }
+
+    .footer-heading_text {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .footer-block-right {
+        margin: 0 0 100px 0;
+        width: 50%;
+        text-align: right;
+    }
+
+    .footer-block-left {
+        margin: 0;
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .info {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .info-text {
+        margin-bottom: 40px;
+        width: 400px;
+    }
+
+    .social-icon {
+        margin: 0 0 30px 0;
+        text-align: left;
+    }
+
+    .contact-footet {
+        width: 158px;
+        margin: 0;
+    }
+
+    .form {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .form-row-up {
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .form-name,
+    .form-control {
+        width: 278px;
+        height: 45px;
+        margin: 0;
+    }
+
+    .form-message {
+        width: 585px;
+        height: 176px;
+   }
+
+   .submit-btn {
+       display: inline-block;
+   }
+
+   .footer-line {
+        left: 0;
+    }
+
+    .copyright {
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 30px 0 0 10px;
+    }
 }
